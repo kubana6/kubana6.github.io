@@ -1,0 +1,310 @@
+body{
+    position: static;
+    margin:0;
+    padding: 0;
+    min-height: 600px;
+    min-width: 800px;
+
+}
+a{
+    font-family: arial,sans-serif;
+    font-size:13px;
+}
+.google{
+    display:block;
+}
+
+.google header  {
+    text-align: right;
+}
+.google header nav {
+    margin-top:5px;
+    padding-right: 30px;
+    height: 30px;
+}
+.google header nav div{
+    font-size:13px;
+    margin:10px ;
+    display: inline-block;
+}
+
+.google header nav div svg{
+    width: 16px;
+    height: 16px; 
+    fill:dimgray; 
+}
+.google header nav div svg:hover{
+   fill:black;
+}
+
+.google header nav div .post:hover,
+.google header nav div .image:hover{
+   text-decoration: underline;
+   opacity:0.85;
+}
+.google header nav div .post,
+.google header nav div .image{
+    text-decoration: none;
+    color: black;
+}
+.google header nav .account {
+    
+    border:1px solid #4285f4;
+    width: 65px;
+    text-align: center;
+    /* background-color: linear-gradient(top,#4387fd,#4683ea); */
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+
+    
+    
+}
+.google header nav .account a{
+    text-decoration: none;
+    font-size:13px;
+    width: 39.68px;
+    height: 28px;  
+    /* background-color: blue; */
+    color:white;
+    padding-left:12px;
+    padding-right: 12px;
+    line-height: 28px;
+    font-weight:bold;
+    border-radius: 2px;
+    /* background-color: linear-gradient(top,#4387fd,#4683ea); */
+    
+}
+
+.google main  {
+    display :block;
+    position: relative;
+    top:141px;
+    
+}
+.google main .logoGoogle {
+    text-align: center;
+}
+
+.google main .borderInput .input {
+    margin: 15px auto;
+    text-align: center;
+    width: 584px;
+    height: 46px;
+    border:solid 1px #9AA0A6;  
+    border-radius:50px; 
+  
+}
+.google main .borderInput .searchImg{ 
+    position: relative;
+    top:12.6px;
+    right:12.2px;
+    width: 33px;
+    height: 44px;
+    text-align: left;
+    fill:#9AA0A6;
+}
+.google main .borderInput{
+    text-align:center;
+}
+.google main .borderInput .input:hover{
+     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.google main .borderInput .input input {
+    position: relative;
+    right:25.5px;
+    bottom: 17px;
+    width: 447px;
+    height: 34px;  
+    border:none;
+    outline: none;
+    
+}
+.google main .borderInput .input .voice {
+    position: relative;
+    right:0px;
+    bottom: 10px;
+    width:24px ;
+    height:24px ;
+}
+.google main .borderInput .input img {
+    position: relative;
+    right:10px;
+    bottom: 16.5px;
+}
+
+.google main .buttons {
+   display:block;
+   text-align: center;
+}
+.google main .buttons div{
+    margin:11px 4px;
+    display:inline-block
+}
+.google main .buttons .buttonSearch input{
+    background-color: f4f4f4;
+    color:gray;
+    height: 34px;
+    border-radius:4px ;
+    border:none;
+    outline: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+    
+}
+.google main .buttons .random input{
+    background-color: f4f4f4;
+    color:gray;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 34px;
+    border-radius:4px ;
+    border:none;
+    outline: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    
+    
+    
+}
+.google main .buttons .random input:hover{
+    box-shadow: 1px 1px 0 #c6c6c6 inset, -1px -1px 0 #c6c6c6 inset;
+    color:#222;
+}
+.google main .buttons .buttonSearch input:hover{
+    /* border:1px solid inset #c6c6c6 ; */
+    box-shadow: 1px 1px 0 #c6c6c6 inset, -1px -1px 0 #c6c6c6 inset;
+
+    color:#222;
+    
+}
+.google main .buttons .random input:focus{
+    box-shadow: 1px 1px 0 #4d90fe inset, -1px -1px 0 #4d90fe inset;
+    color:#222;
+}
+.google main .buttons .buttonSearch input:focus{
+    box-shadow: 1px 1px 0 #4d90fe inset, -1px -1px 0 #4d90fe inset;
+    color:#222;
+    
+}
+
+.google main  .servise{
+    text-align: center;
+
+}
+.google main .servise .language{
+    margin:0 auto;
+    font-size: small;
+    font-family: arial,sans-serif;
+    line-height: 28px;
+    color:#222;
+}
+
+.google main .servise .language a{
+   text-decoration: none;
+   color: rgb(26, 13, 171);
+}
+
+
+
+.google main .servise .language a:hover{
+   text-decoration: underline;
+}
+.google main .servise .language a:visited{
+   color: #609;
+}
+footer{
+    position: relative;
+    top:531.4px;
+    display:block;
+    background-color:#f2f2f2 ;
+    border-top :1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    width: 100%;
+    font-family: arial,sans-serif;
+    font-size:14px;
+}
+footer .country{
+    border-bottom:1px solid #e4e4e4;
+}
+footer .country span {
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-family: arial,sans-serif;
+}
+footer .info {
+    display:block;
+    margin:0 auto; 
+    
+}
+footer .info .allOfGoggle{
+    display: inline-block;
+    margin :0 auto;
+  
+}
+footer .info .settings{
+    display: inline-block;
+    margin :0 ;
+    float: right; 
+    padding-right:27px ;
+    
+    
+
+}
+footer .info a{
+    color:#222;
+    text-decoration: none;
+    padding-left:27px;
+    color:#5f6368
+}
+footer .info a:hover{
+    text-decoration: underline;
+}
+
+
+/* .headGoogle .headInformation{
+    
+    margin:0px ;
+}
+.headGoogle .headInformation .information{
+    width:257px;
+    height: 30px;
+    margin:0px right;
+    text-align: right;
+    
+}
+.headGoogle .headInformation .information div{
+    display: inline-block;
+
+}
+.headGoogle .information .mailImages{
+    padding-right: 15px;
+}
+.headGoogle .information .mailImages div a{
+    text-decoration: none;
+    color:black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin:5px;
+}
+/* .headGoogle .information .appsAccount div{
+   display: inline;
+} */
+
+
+/* .headGoogle .headInformation .information .appsAccount .apps a{
+    background:url(appsGoogle.png) no-repeat;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    cursor:pointer;
+    background-position:-278.90px -90px;  
+   
+}
+.headGoogle .headInformation .information .appsAccount .account img{  
+    width:32px;
+    height:32px;   
+} */
