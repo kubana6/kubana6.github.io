@@ -1,9 +1,15 @@
 body{
-    position: static;
-    margin:0;
+    
+    margin:0 auto;
     padding: 0;
-    min-height: 600px;
+    min-height: 100%;
     min-width: 800px;
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    
 
 }
 a{
@@ -46,6 +52,10 @@ a{
 .google header nav div .image{
     text-decoration: none;
     color: black;
+}
+.google header nav .apps {
+    position: relative;
+    top:4px;
 }
 .google header nav .account {
     
@@ -117,6 +127,7 @@ a{
     height: 34px;  
     border:none;
     outline: none;
+    font:16px arial,sans-serif;
     
 }
 .google main .borderInput .input .voice {
